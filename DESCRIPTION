@@ -1,4 +1,4 @@
-Package: sqlr.pregnancy
+Package: pregnancy.a
 Title: An R Package for the Sleep-Wake Cycle Throughout Pregnancy Project
 Version: 0.0.0.9000
 Authors@R: 
@@ -28,45 +28,40 @@ Authors@R:
              role = c("aut", "sad"),
              comment = c(ORCID = "0000-0002-5257-591X")),
       person(given = "Interdisciplinary Sleep Research Group (GIPSO)",
-             role = c("fnd", "cph")),
+             role = "fnd"),
       person(given = "University of Sao Paulo (USP)",
-             role = c("fnd")))
+             role = "fnd"))
 Maintainer: Daniel Vartanian <danvartan@gmail.com>
 Description: R package for the project: expression of the sleep-wake cycle 
       throughout pregnancy: a systematic quantitative literature review.
 License: MIT + file LICENSE
-URL: https://gipsousp.github.io/sqlr.pregnancy/, 
-      https://github.com/gipsousp/sqlr.pregnancy/
-BugReports: https://github.com/gipsousp/sqlr.pregnancy/issues/
-Encoding: UTF-8
-LazyData: true
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.1.1
+URL: https://gipso.github.io/pregnancy.a/, 
+      https://github.com/gipso/pregnancy.a/
+BugReports: https://github.com/gipso/pregnancy.a/issues/
 Depends:
-    R (>= 3.6)
+    R (>= 4.1)
 Imports: 
     checkmate,
-    dplyr,
+    dplyr (>= 0.2),
     lifecycle,
-    magrittr,
-    sqlr,
-    stringr
+    sqlr
 Suggests: 
     covr,
     crayon,
-    ggplot2,
-    googlesheets4,
-    grDevices,
+    emojifont,
     knitr,
-    revtools,
-    rlang,
+    mockr,
     rmarkdown,
     spelling,
-    synthesisr,
-    testthat (>= 3.0.0),
-    utils
-Remotes:
-    github::gipsousp/sqlr
+    testthat (>= 3.0.0)
+Remotes: 
+    github::gipso/sqlr
+VignetteBuilder: 
+    knitr
 Config/testthat/edition: 3
-VignetteBuilder: knitr
+Encoding: UTF-8
 Language: en-US
+LazyData: true
+LazyDataCompression: bzip2
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

@@ -2,18 +2,16 @@
 % Please edit documentation in R/raw_data.R
 \name{raw_data}
 \alias{raw_data}
-\title{Get paths to \code{sqlr.pregnancy} raw data}
+\title{Get paths to \code{pregnancy.a} raw data}
 \usage{
-raw_data(type = NULL, file = NULL, quiet = FALSE)
+raw_data(type = NULL, file = NULL)
 }
 \arguments{
-\item{type}{(optional) a string indicating the file type of the raw dataset
+\item{type}{(optional) a string indicating the file type of the raw data
 (default: \code{NULL}).}
 
-\item{file}{(optional) a string indicating the file name of the raw dataset.}
-
-\item{quiet}{(optional) a \code{logical} value indicating if warnings or messages
-must be suppressed (default: \code{FALSE}).}
+\item{file}{(optional) a \code{character} object indicating the file name(s) of
+the raw data.}
 }
 \value{
 \itemize{
@@ -21,13 +19,13 @@ must be suppressed (default: \code{FALSE}).}
 available.
 \item If \code{type != NULL} and \code{file = NULL}, a \code{character} object with all file
 names available from type.
-\item If \code{type != NULL} and \code{file != NULL}, a string file name path.
+\item If \code{type != NULL} and \code{file != NULL}, a string with the file name path.
 }
 }
 \description{
 \ifelse{html}{\href{https://lifecycle.r-lib.org/articles/stages.html#experimental}{\figure{lifecycle-experimental.svg}{options: alt='[Experimental]'}}}{\strong{[Experimental]}}
 
-\code{raw_data()} returns the raw data paths of the \code{sqlr.pregnancy} package.
+\code{raw_data()} returns the raw data paths of the \code{pregnancy.a} package.
 }
 \examples{
 \dontrun{

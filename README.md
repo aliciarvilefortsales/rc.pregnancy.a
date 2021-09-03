@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# sqlr.pregnancy <a href='https://gipsousp.github.io/sqlr.pregnancy'><img src='man/figures/logo.png' align="right" height="139" /></a>
+# pregnancy.a
 
 <!-- badges: start -->
 
@@ -10,17 +10,17 @@ has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check](https://github.com/gipsousp/sqlr.pregnancy/workflows/R-CMD-check/badge.svg)](https://github.com/gipsousp/sqlr.pregnancy/actions)
+[![R-CMD-check](https://github.com/gipsousp/pregnancy.a/workflows/R-CMD-check/badge.svg)](https://github.com/gipsousp/pregnancy.a/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/gipsousp/sqlr.pregnancy/branch/master/graph/badge.svg)](https://codecov.io/gh/gipsousp/sqlr.pregnancy?branch=master)
+coverage](https://codecov.io/gh/gipsousp/pregnancy.a/branch/master/graph/badge.svg)](https://codecov.io/gh/gipsousp/pregnancy.a?branch=master)
 [![License:
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
-`sqlr.pregnancy` is an R package with the research compendium of the
+`pregnancy.a` is an R package with the research compendium of the
 project: expression of the sleep-wake cycle throughout pregnancy: a
-systematic quantitative literature review. The aim of `sqlr.pregnancy`
-is to facilitate the research work, in addition to contributing to the
+systematic quantitative literature review. The aim of `pregnancy.a` is
+to facilitate the research work, in addition to contributing to the
 reproducibility of the research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger
@@ -32,42 +32,42 @@ Learn more about Systematic Quantitative Literature Reviews at
 
 ## Installation
 
-`sqlr.pregnancy` is still at the
+`pregnancy.a` is still at the
 [experimental](https://lifecycle.r-lib.org/articles/stages.html#experimental)
 stage of development, that means that people can use the package and
 provide feedback, but it comes with no promises for long term stability.
 
-You can install `sqlr.pregnancy` from GitHub with:
+You can install `pregnancy.a` from GitHub with:
 
 ``` r
-# install.packages("sqlr.pregnancy")
-devtools::install_github("gipsousp/sqlr.pregnancy", dependencies = TRUE)
+# install.packages("pregnancy.a")
+devtools::install_github("gipsousp/pregnancy.a", dependencies = TRUE)
 ```
 
 ## Citation
 
-If you use `sqlr.pregnancy` in your research, please consider citing it.
-We put a lot of work to build and maintain a free and open-source R
-package. You can find the `sqlr.pregnancy` citation below.
+If you use `pregnancy.a` in your research, please consider citing it. We
+put a lot of work to build and maintain a free and open-source R
+package. You can find the `pregnancy.a` citation below.
 
 ``` r
-citation("sqlr.pregnancy")
+citation("pregnancy.a")
 #> 
-#> To cite sqlr.pregnancy in publications use:
+#> To cite pregnancy.a in publications use:
 #> 
 #>   Sales, A. R. V., Vartanian, D., Rodrigues, I., Benedito-Silva, A. A.,
-#>   Pedrazzoli, M. (2021). sqlr.pregnancy: an R package with the research
+#>   Pedrazzoli, M. (2021). pregnancy.a: an R package with the research
 #>   compendium of the project: expression of the sleep-wake cycle
 #>   throughout pregnancy: a systematic quantitative literature review.
-#>   Retrieved from https://gipsousp.github.io/sqlr.pregnancy/.
+#>   Retrieved from https://gipso.github.io/pregnancy.a/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
-#>     title = {sqlr.pregnancy: an R package with the research compendium of the project: expression of the sleep-wake cycle throughout pregnancy: a systematic quantitative literature review},
+#>     title = {pregnancy.a: an R package with the research compendium of the project: expression of the sleep-wake cycle throughout pregnancy: a systematic quantitative literature review},
 #>     author = {Alicia Rafaelly Vilefort Sales and Daniel Vartanian and Isadora Rodrigues and Ana Amelia Benedito-Silva and Mario Pedrazzoli},
 #>     year = {2021},
-#>     url = {https://gipsousp.github.io/sqlr.pregnancy/},
+#>     url = {https://gipso.github.io/pregnancy.a/},
 #>     note = {Lifecycle: experimental},
 #>   }
 ```

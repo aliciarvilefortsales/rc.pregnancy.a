@@ -5,7 +5,7 @@
 \alias{sheets}
 \title{List with Google Sheets metadata for tables hosted on the platform}
 \format{
-An object of class \code{list} of length 6.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 0 rows and 0 columns.
 }
 \usage{
 sheets

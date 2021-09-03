@@ -4,12 +4,14 @@
     "http://schema.org"
   ],
   "@type": "SoftwareSourceCode",
-  "identifier": "sqlr.pregnancy",
+  "identifier": "pregnancy.a",
   "description": "R package for the project: expression of the sleep-wake cycle \n      throughout pregnancy: a systematic quantitative literature review.",
-  "name": "sqlr.pregnancy: An R Package for the Sleep-Wake Cycle Throughout Pregnancy Project",
-  "codeRepository": "https://github.com/gipsousp/sqlr.pregnancy/",
-  "relatedLink": ["https://gipsousp.github.io/sqlr.template/", "https://gipsousp.github.io/sqlr.pregnancy/"],
-  "issueTracker": "https://github.com/gipsousp/sqlr.pregnancy/issues/",
+  "name": "pregnancy.a: An R Package for the Sleep-Wake Cycle Throughout Pregnancy Project",
+  "codeRepository": "https://github.com/gipso/pregnancy.a/",
+  "relatedLink": [
+    "https://gipso.github.io/pregnancy.a/"
+  ],
+  "issueTracker": "https://github.com/gipso/pregnancy.a/issues/",
   "license": "https://spdx.org/licenses/MIT",
   "version": "0.0.0.9000",
   "programmingLanguage": {
@@ -17,7 +19,7 @@
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.0.3 (2020-10-10)",
+  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
   "author": [
     {
       "@type": "Person",
@@ -70,10 +72,6 @@
       "familyName": "Vartanian",
       "email": "danvartan@gmail.com",
       "@id": "https://orcid.org/0000-0001-7782-759X"
-    },
-    {
-      "@type": "Organization",
-      "name": "Interdisciplinary Sleep Research Group (GIPSO)"
     }
   ],
   "funder": [
@@ -122,32 +120,15 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "ggplot2",
-      "name": "ggplot2",
+      "identifier": "emojifont",
+      "name": "emojifont",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
         "name": "Comprehensive R Archive Network (CRAN)",
         "url": "https://cran.r-project.org"
       },
-      "sameAs": "https://CRAN.R-project.org/package=ggplot2"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "googlesheets4",
-      "name": "googlesheets4",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=googlesheets4"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "grDevices",
-      "name": "grDevices"
+      "sameAs": "https://CRAN.R-project.org/package=emojifont"
     },
     {
       "@type": "SoftwareApplication",
@@ -163,27 +144,15 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "revtools",
-      "name": "revtools",
+      "identifier": "mockr",
+      "name": "mockr",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
         "name": "Comprehensive R Archive Network (CRAN)",
         "url": "https://cran.r-project.org"
       },
-      "sameAs": "https://CRAN.R-project.org/package=revtools"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "rlang",
-      "name": "rlang",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=rlang"
+      "sameAs": "https://CRAN.R-project.org/package=mockr"
     },
     {
       "@type": "SoftwareApplication",
@@ -211,18 +180,6 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "synthesisr",
-      "name": "synthesisr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=synthesisr"
-    },
-    {
-      "@type": "SoftwareApplication",
       "identifier": "testthat",
       "name": "testthat",
       "version": ">= 3.0.0",
@@ -233,11 +190,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=testthat"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "utils",
-      "name": "utils"
     }
   ],
   "softwareRequirements": [
@@ -245,7 +197,7 @@
       "@type": "SoftwareApplication",
       "identifier": "R",
       "name": "R",
-      "version": ">= 3.6"
+      "version": ">= 4.1"
     },
     {
       "@type": "SoftwareApplication",
@@ -263,6 +215,7 @@
       "@type": "SoftwareApplication",
       "identifier": "dplyr",
       "name": "dplyr",
+      "version": ">= 0.2",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -285,41 +238,22 @@
     },
     {
       "@type": "SoftwareApplication",
-      "identifier": "magrittr",
-      "name": "magrittr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=magrittr"
-    },
-    {
-      "@type": "SoftwareApplication",
       "identifier": "sqlr",
       "name": "sqlr",
-      "sameAs": "https://github.com/gipsousp/sqlr"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "stringr",
-      "name": "stringr",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=stringr"
+      "sameAs": "https://github.com/gipso/sqlr"
     }
   ],
-  "readme": "https://github.com/gipsousp/sqlr.pregnancy/blob/master/README.md",
-  "fileSize": "117.067KB",
-  "contIntegration": ["https://travis-ci.com/gipsousp/sqlr.pregnancy", "https://codecov.io/gh/gipsousp/sqlr.pregnancy?branch=master"],
+  "readme": "https://github.com/gipso/pregnancy.a/blob/master/README.md",
+  "fileSize": "0KB",
+  "contIntegration": "https://codecov.io/gh/gipsousp/pregnancy.a?branch=master",
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
-  "releaseNotes": "https://github.com/gipsousp/sqlr.pregnancy/blob/master/NEWS.md",
-  "keywords": ["sleep", "r-package", "chronobiology", "systematic-review"],
+  "releaseNotes": "https://github.com/gipso/pregnancy.a/blob/master/NEWS.md",
+  "keywords": [
+    "sleep",
+    "r-package",
+    "chronobiology",
+    "systematic-review"
+  ],
   "citation": [
     {
       "@type": "CreativeWork",
@@ -351,8 +285,8 @@
           "familyName": "Pedrazzoli"
         }
       ],
-      "name": "sqlr.pregnancy: an R package with the research compendium of the project: expression of the sleep-wake cycle throughout pregnancy: a systematic quantitative literature review",
-      "url": "https://gipsousp.github.io/sqlr.pregnancy/",
+      "name": "pregnancy.a: an R package with the research compendium of the project: expression of the sleep-wake cycle throughout pregnancy: a systematic quantitative literature review",
+      "url": "https://gipso.github.io/pregnancy.a/",
       "description": "Lifecycle: experimental"
     }
   ]

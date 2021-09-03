@@ -5,7 +5,7 @@
 \alias{keyword}
 \title{Keyword dataset}
 \format{
-An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 137 rows and 7 columns.
+An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 0 rows and 0 columns.
 }
 \usage{
 keyword
