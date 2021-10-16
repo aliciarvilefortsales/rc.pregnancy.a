@@ -5,8 +5,8 @@
   ],
   "@type": "SoftwareSourceCode",
   "identifier": "pregnancy.a",
-  "description": "R package for the project: expression of the sleep-wake cycle \n      throughout pregnancy: a systematic quantitative literature review.",
-  "name": "pregnancy.a: An R Package for the Sleep-Wake Cycle Throughout Pregnancy Project",
+  "description": "Research compendium of the sleep and pregnancy project: a \n      systematic quantitative literature review.",
+  "name": "pregnancy.a: R Package for the Sleep and Pregnancy Project",
   "codeRepository": "https://github.com/gipso/pregnancy.a/",
   "relatedLink": [
     "https://gipso.github.io/pregnancy.a/"
@@ -19,7 +19,7 @@
     "name": "R",
     "url": "https://r-project.org"
   },
-  "runtimePlatform": "R version 4.1.0 (2021-05-18)",
+  "runtimePlatform": "R version 4.1.1 (2021-08-10)",
   "author": [
     {
       "@type": "Person",
@@ -41,13 +41,6 @@
       "familyName": "Rodrigues",
       "email": "isadorard@usp.br",
       "@id": "https://orcid.org/0000-0002-3629-6208"
-    },
-    {
-      "@type": "Person",
-      "givenName": "Ana Amelia",
-      "familyName": "Benedito-Silva",
-      "email": "aamelia@usp.br",
-      "@id": "https://orcid.org/0000-0003-4976-2623"
     },
     {
       "@type": "Person",
@@ -105,30 +98,6 @@
         "url": "https://cran.r-project.org"
       },
       "sameAs": "https://CRAN.R-project.org/package=covr"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "crayon",
-      "name": "crayon",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=crayon"
-    },
-    {
-      "@type": "SoftwareApplication",
-      "identifier": "emojifont",
-      "name": "emojifont",
-      "provider": {
-        "@id": "https://cran.r-project.org",
-        "@type": "Organization",
-        "name": "Comprehensive R Archive Network (CRAN)",
-        "url": "https://cran.r-project.org"
-      },
-      "sameAs": "https://CRAN.R-project.org/package=emojifont"
     },
     {
       "@type": "SoftwareApplication",
@@ -203,6 +172,7 @@
       "@type": "SoftwareApplication",
       "identifier": "checkmate",
       "name": "checkmate",
+      "version": ">= 2.0.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -213,9 +183,22 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "cli",
+      "name": "cli",
+      "version": ">= 3.0.1",
+      "provider": {
+        "@id": "https://cran.r-project.org",
+        "@type": "Organization",
+        "name": "Comprehensive R Archive Network (CRAN)",
+        "url": "https://cran.r-project.org"
+      },
+      "sameAs": "https://CRAN.R-project.org/package=cli"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "dplyr",
       "name": "dplyr",
-      "version": ">= 0.2",
+      "version": ">= 1.0.7",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -228,6 +211,7 @@
       "@type": "SoftwareApplication",
       "identifier": "lifecycle",
       "name": "lifecycle",
+      "version": ">= 1.0.0",
       "provider": {
         "@id": "https://cran.r-project.org",
         "@type": "Organization",
@@ -243,9 +227,9 @@
       "sameAs": "https://github.com/gipso/sqlr"
     }
   ],
-  "readme": "https://github.com/gipso/pregnancy.a/blob/master/README.md",
-  "fileSize": "0KB",
-  "contIntegration": "https://codecov.io/gh/gipsousp/pregnancy.a?branch=master",
+  "readme": "https://github.com/gipso/pregnancy.a/blob/main/README.md",
+  "fileSize": "19159.88KB",
+  "contIntegration": ["https://github.com/gipso/pregnancy.a/actions", "https://codecov.io/gh/gipso/pregnancy.a"],
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "releaseNotes": "https://github.com/gipso/pregnancy.a/blob/master/NEWS.md",
   "keywords": [
@@ -276,16 +260,11 @@
         },
         {
           "@type": "Person",
-          "givenName": ["Ana", "Amelia"],
-          "familyName": "Benedito-Silva"
-        },
-        {
-          "@type": "Person",
           "givenName": "Mario",
           "familyName": "Pedrazzoli"
         }
       ],
-      "name": "pregnancy.a: an R package with the research compendium of the project: expression of the sleep-wake cycle throughout pregnancy: a systematic quantitative literature review",
+      "name": "{pregnancy.a}: an R package with the research compendium of the sleep and pregnancy project: a systematic quantitative literature review",
       "url": "https://gipso.github.io/pregnancy.a/",
       "description": "Lifecycle: experimental"
     }

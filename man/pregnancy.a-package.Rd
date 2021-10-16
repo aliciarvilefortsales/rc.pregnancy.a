@@ -4,10 +4,9 @@
 \name{pregnancy.a-package}
 \alias{pregnancy.a}
 \alias{pregnancy.a-package}
-\title{pregnancy.a: An R Package for the Sleep-Wake Cycle Throughout Pregnancy Project}
+\title{pregnancy.a: R Package for the Sleep and Pregnancy Project}
 \description{
-R package for the project: expression of the sleep-wake cycle 
-      throughout pregnancy: a systematic quantitative literature review.
+Research compendium of the sleep and pregnancy project: a systematic quantitative literature review.
 }
 \seealso{
 Useful links:
@@ -25,7 +24,6 @@ Authors:
 \itemize{
   \item Alicia Rafaelly Vilefort Sales \email{alicia.sales@usp.br} (\href{https://orcid.org/0000-0003-0004-4487}{ORCID}) [copyright holder]
   \item Isadora Rodrigues \email{isadorard@usp.br} (\href{https://orcid.org/0000-0002-3629-6208}{ORCID})
-  \item Ana Amelia Benedito-Silva \email{aamelia@usp.br} (\href{https://orcid.org/0000-0003-4976-2623}{ORCID}) [scientific advisor]
   \item Mario Pedrazzoli \email{pedrazzo@usp.br} (\href{https://orcid.org/0000-0002-5257-591X}{ORCID}) [scientific advisor]
 }
 

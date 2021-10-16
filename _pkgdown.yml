@@ -1,9 +1,9 @@
-url: https://gipso.github.io/pregnancy.2020/
+url: https://gipso.github.io/pregnancy.b/
 
 template:
   params:
     bootswatch: cosmo
-    ganalytics: G-XJ3F06M7DQ
+    ganalytics: G-S3ZVYXQ6N9
     mathjax: true
     noindex: true
 
@@ -35,8 +35,6 @@ authors:
     href: https://github.com/aliciasales
   Daniel Vartanian:
     href: https://github.com/danielvartan
-  Ana Amelia Benedito-Silva:
-    href: https://github.com/AnaAmeliaBeneditoSIlva
   Mario Pedrazzoli:
     href: https://github.com/pedrazzo
   Interdisciplinary Sleep Research Group (GIPSO):
