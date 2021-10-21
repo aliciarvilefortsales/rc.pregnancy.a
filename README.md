@@ -17,10 +17,9 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com
 <!-- badges: end -->
 
 `pregnancy.a` is an R package with the research compendium of the
-GIPSO’s sleep and pregnancy project: a systematic quantitative
-literature review. The aim of `pregnancy.a` is to facilitate the
-research work, in addition to contributing to the reproducibility of the
-research.
+GIPSO’s sleep and pregnancy systematic quantitative literature review.
+The aim of `pregnancy.a` is to facilitate the research work, in addition
+to contributing to the reproducibility of the research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger
 & Lincoln Mullen’s article [“Packaging Data Analytical Work Reproducibly
@@ -55,14 +54,14 @@ citation("pregnancy.a")
 #> To cite {pregnancy.a} in publications use:
 #> 
 #>   Sales, A. R. V., Vartanian, D., Rodrigues, I., Pedrazzoli, M. (2021).
-#>   {pregnancy.a}: an R package with the research compendium of the sleep
-#>   and pregnancy project: a systematic quantitative literature review.
-#>   Retrieved from https://gipso.github.io/pregnancy.a/.
+#>   {pregnancy.a}: an R package with the research compendium of the
+#>   GIPSO's sleep and pregnancy systematic quantitative literature
+#>   review. Retrieved from https://gipso.github.io/pregnancy.a/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
-#>     title = {{pregnancy.a}: an R package with the research compendium of the sleep and pregnancy project: a systematic quantitative literature review},
+#>     title = {{pregnancy.a}: an R package with the research compendium of the GIPSO's sleep and pregnancy systematic quantitative literature review},
 #>     author = {Alicia Rafaelly Vilefort Sales and Daniel Vartanian and Isadora Rodrigues and Mario Pedrazzoli},
 #>     year = {2021},
 #>     url = {https://gipso.github.io/pregnancy.a/},
