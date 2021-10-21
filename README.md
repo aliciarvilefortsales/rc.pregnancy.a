@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pregnancy.a
+# pregnancy.a <a href='https://gipso.github.io/pregnancy.b'><img src='man/figures/logo.png' align="right" height="139" /></a>
 
 <!-- badges: start -->
 
@@ -17,13 +17,13 @@ MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com
 <!-- badges: end -->
 
 `pregnancy.a` is an R package with the research compendium of the
-project: expression of the sleep-wake cycle throughout pregnancy: a
-systematic quantitative literature review. The aim of `pregnancy.a` is
-to facilitate the research work, in addition to contributing to the
-reproducibility of the research.
+GIPSO’s sleep and pregnancy project: a systematic quantitative
+literature review. The aim of `pregnancy.a` is to facilitate the
+research work, in addition to contributing to the reproducibility of the
+research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger
-& Lincoln Mullen article [“Packaging Data Analytical Work Reproducibly
+& Lincoln Mullen’s article [“Packaging Data Analytical Work Reproducibly
 Using R (and Friends)”](https://doi.org/10.1080/00031305.2017.1375986).
 
 Learn more about Systematic Quantitative Literature Reviews (SQLR)
@@ -55,8 +55,8 @@ citation("pregnancy.a")
 #> To cite {pregnancy.a} in publications use:
 #> 
 #>   Sales, A. R. V., Vartanian, D., Rodrigues, I., Pedrazzoli, M. (2021).
-#>   {mcycle}: an R package with the research compendium of the sleep and
-#>   pregnancy project: a systematic quantitative literature review.
+#>   {pregnancy.a}: an R package with the research compendium of the sleep
+#>   and pregnancy project: a systematic quantitative literature review.
 #>   Retrieved from https://gipso.github.io/pregnancy.a/.
 #> 
 #> A BibTeX entry for LaTeX users is

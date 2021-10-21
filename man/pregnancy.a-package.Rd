@@ -4,9 +4,11 @@
 \name{pregnancy.a-package}
 \alias{pregnancy.a}
 \alias{pregnancy.a-package}
-\title{pregnancy.a: R Package for the Sleep and Pregnancy Project}
+\title{pregnancy.a: Research Compendium of the GIPSO's Sleep and Pregnancy SQLR}
 \description{
-Research compendium of the sleep and pregnancy project: a systematic quantitative literature review.
+\if{html}{\figure{logo.png}{options: align='right' alt='logo' width='120'}}
+
+An R package with the research compendium of the GIPSO's sleep and pregnancy project: a systematic quantitative literature review.
 }
 \seealso{
 Useful links:
