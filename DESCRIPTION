@@ -39,6 +39,7 @@ Imports:
     checkmate (>= 2.0.0),
     cli (>= 3.0.1),
     dplyr (>= 1.0.7),
+    gutils,
     lifecycle (>= 1.0.0),
     sqlr
 Suggests: 
@@ -49,6 +50,7 @@ Suggests:
     spelling,
     testthat (>= 3.0.0)
 Remotes: 
+    github::gipso/gutils,
     github::gipso/sqlr
 VignetteBuilder: 
     knitr

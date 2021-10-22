@@ -27,5 +27,5 @@
 #' raw_data()
 #' }
 raw_data <- function(type = NULL, file = NULL) {
-    sqlr::raw_data(type = type, file = file, package = "pregnancy.a")
+    gutils::raw_data_2(type, file, package = "pregnancy.a")
 }

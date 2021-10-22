@@ -209,6 +209,12 @@
     },
     {
       "@type": "SoftwareApplication",
+      "identifier": "gutils",
+      "name": "gutils",
+      "sameAs": "https://github.com/gipso/gutils"
+    },
+    {
+      "@type": "SoftwareApplication",
       "identifier": "lifecycle",
       "name": "lifecycle",
       "version": ">= 1.0.0",
@@ -228,8 +234,8 @@
     }
   ],
   "readme": "https://github.com/gipso/pregnancy.a/blob/main/README.md",
-  "fileSize": "19173.828KB",
-  "contIntegration": ["https://github.com/gipso/pregnancy.a/actions", "https://codecov.io/gh/gipso/pregnancy.a"],
+  "fileSize": "19173.154KB",
+  "contIntegration": ["https://github.com/gipso/pregnancy.a/actions", "https://codecov.io/gh/gipso/pregnancy.a?branch=main"],
   "developmentStatus": ["https://www.repostatus.org/#wip", "https://lifecycle.r-lib.org/articles/stages.html#experimental"],
   "releaseNotes": "https://github.com/gipso/pregnancy.a/blob/master/NEWS.md",
   "keywords": [
@@ -264,7 +270,7 @@
           "familyName": "Pedrazzoli"
         }
       ],
-      "name": "{pregnancy.a}: an R package with the research compendium of the of the project: expression of the sleep-wake cycle throughout pregnancy: a systematic quantitative literature review",
+      "name": "{pregnancy.a}: an R package with the research compendium of the GIPSO's sleep and pregnancy systematic quantitative literature review",
       "url": "https://gipso.github.io/pregnancy.a/",
       "description": "Lifecycle: experimental"
     }

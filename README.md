@@ -57,7 +57,7 @@ citation("pregnancy.a")
 #>   Sales, A. R. V., Vartanian, D., Rodrigues, I., Pedrazzoli, M. (2021).
 #>   {pregnancy.a}: an R package with the research compendium of the
 #>   GIPSO's sleep and pregnancy systematic quantitative literature
-#>   review. Retrieved from https://gipso.github.io/pregnancy.a/.
+#>   review. https://gipso.github.io/pregnancy.a/.
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 

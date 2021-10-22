@@ -24,7 +24,7 @@ citEntry(
                        "GIPSO's", " ",
                        "sleep and pregnancy", " ",
                        "systematic quantitative literature review.", " ",
-                       "Retrieved from https://gipso.github.io/",
+                       "https://gipso.github.io/",
                        "pregnancy.a/", "."),
   note        = "Lifecycle: experimental"
 )
