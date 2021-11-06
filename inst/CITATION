@@ -16,7 +16,7 @@ citEntry(
                        "pregnancy.a/"),
   textVersion = paste0("Sales, A. R. V.", ", ",
                        "Vartanian, D.", ", ",
-                       "Rodrigues, I.", ", ",
+                       "Rodrigues, I.", ", & ",
                        "Pedrazzoli, M.", " ",
                        "(2021)",  ". ",
                        "{pregnancy.a}:", " ",
@@ -25,6 +25,6 @@ citEntry(
                        "sleep and pregnancy", " ",
                        "systematic quantitative literature review.", " ",
                        "https://gipso.github.io/",
-                       "pregnancy.a/", "."),
+                       "pregnancy.a/"),
   note        = "Lifecycle: experimental"
 )
