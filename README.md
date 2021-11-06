@@ -17,6 +17,8 @@ coverage](https://codecov.io/gh/gipso/pregnancy.a/branch/main/graph/badge.svg)](
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
+## Overview
+
 `pregnancy.a` is an R package with the research compendium of the
 GIPSO’s sleep and pregnancy systematic quantitative literature review.
 The aim of `pregnancy.a` is to facilitate the research work, in addition
@@ -31,17 +33,14 @@ Learn more about Systematic Quantitative Literature Reviews (SQLR)
 
 ## Installation
 
-`pregnancy.a` is still at the
-[experimental](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-stage of development. That means people can use the package and provide
-feedback, but it comes with no promises for long term stability.
-
 You can install `pregnancy.a` from GitHub with:
 
 ``` r
 # install.packages("remotes")
 remotes::install_github("gipso/pregnancy.a")
 ```
+
+We don’t intend to publish this package to CRAN.
 
 ## Citation
 

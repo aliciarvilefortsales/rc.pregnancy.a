@@ -1,0 +1,55 @@
+# -----------------------------------------------------------
+# CITATION file created with {cffr} R package, v0.1.0
+# See also: https://docs.ropensci.org/cffr/
+# -----------------------------------------------------------
+ 
+cff-version: 1.2.0
+message: 'To cite package "pregnancy.a" in publications use:'
+type: software
+license: MIT
+title: 'pregnancy.a: Research Compendium of the GIPSO''s Sleep and Pregnancy SQLR'
+version: 0.0.0.9000
+abstract: 'An R package with the research compendium of the GIPSO''s sleep and pregnancy
+  project: a systematic quantitative literature review.'
+authors:
+- family-names: Rafaelly Vilefort Sales
+  given-names: Alicia
+  email: alicia.sales@usp.br
+  orcid: https://orcid.org/0000-0003-0004-4487
+- family-names: Vartanian
+  given-names: Daniel
+  email: danvartan@gmail.com
+  orcid: https://orcid.org/0000-0001-7782-759X
+- family-names: Rodrigues
+  given-names: Isadora
+  email: isadorard@usp.br
+  orcid: https://orcid.org/0000-0002-3629-6208
+- family-names: Pedrazzoli
+  given-names: Mario
+  email: pedrazzo@usp.br
+  orcid: https://orcid.org/0000-0002-5257-591X
+preferred-citation:
+  type: unpublished
+  title: 'pregnancy.a: an R package with the research compendium of the GIPSO''s sleep
+    and pregnancy systematic quantitative literature review'
+  authors:
+  - family-names: Sales
+    given-names: Alicia Rafaelly Vilefort
+  - family-names: Vartanian
+    given-names: Daniel
+  - family-names: Rodrigues
+    given-names: Isadora
+  - family-names: Pedrazzoli
+    given-names: Mario
+  year: '2021'
+  url: https://gipso.github.io/pregnancy.a/
+repository-code: https://github.com/gipso/pregnancy.a/issues/
+url: https://gipso.github.io/pregnancy.a/
+contact:
+- family-names: Vartanian
+  given-names: Daniel
+  email: danvartan@gmail.com
+  orcid: https://orcid.org/0000-0001-7782-759X
+identifiers:
+- type: url
+  value: https://github.com/gipso/pregnancy.a/
