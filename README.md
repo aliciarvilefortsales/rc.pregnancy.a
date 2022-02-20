@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# pregnancy.a <a href='https://gipso.github.io/pregnancy.b'><img src='man/figures/logo.png' align="right" height="139" /></a>
+# rc.pregnancy.a
 
 <!-- badges: start -->
 
@@ -10,19 +10,20 @@ has not yet been a stable, usable release suitable for the
 public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
 [![Lifecycle:
 experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
-[![R-CMD-check](https://github.com/gipso/pregnancy.a/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/pregnancy.a/actions)
+[![R-CMD-check](https://github.com/gipso/rc.pregnancy.a/workflows/R-CMD-check/badge.svg)](https://github.com/gipso/rc.pregnancy.a/actions)
 [![Codecov test
-coverage](https://codecov.io/gh/gipso/pregnancy.a/branch/main/graph/badge.svg)](https://codecov.io/gh/gipso/pregnancy.a?branch=main)
+coverage](https://codecov.io/gh/gipso/rc.pregnancy.a/branch/main/graph/badge.svg)](https://codecov.io/gh/gipso/rc.pregnancy.a?branch=main)
 [![License:
 MIT](https://img.shields.io/badge/license-MIT-green)](https://choosealicense.com/licenses/mit/)
 <!-- badges: end -->
 
 ## Overview
 
-`pregnancy.a` is an R package with the research compendium of the
-GIPSO’s sleep and pregnancy systematic quantitative literature review.
-The aim of `pregnancy.a` is to facilitate the research work, in addition
-to contributing to the reproducibility of the research.
+`rc.pregnancy.a` is an R package with the research compendium of the
+Interdisciplinary Sleep Research Group (GIPSO) sleep and pregnancy
+systematic quantitative literature review. The aim of `rc.pregnancy.a`
+is to facilitate the research work, in addition to contributing to the
+reproducibility of the research.
 
 The assemble of this package was inspired by Ben Marwick, Carl Boettiger
 & Lincoln Mullen’s article [“Packaging Data Analytical Work Reproducibly
@@ -33,38 +34,38 @@ Learn more about Systematic Quantitative Literature Reviews (SQLR)
 
 ## Installation
 
-You can install `pregnancy.a` from GitHub with:
+You can install `rc.pregnancy.a` from GitHub with:
 
 ``` r
 # install.packages("remotes")
-remotes::install_github("gipso/pregnancy.a")
+remotes::install_github("gipso/rc.pregnancy.a")
 ```
 
 We don’t intend to publish this package to CRAN.
 
 ## Citation
 
-If you use `pregnancy.a` in your research, please consider citing it. We
-put a lot of work to build and maintain a free and open-source R
-package. You can find the `pregnancy.a` citation below.
+If you use `rc.pregnancy.a` in your research, please consider citing it.
+We put a lot of work to build and maintain a free and open-source R
+package. You can find the `rc.pregnancy.a` citation below.
 
 ``` r
-citation("pregnancy.a")
+citation("rc.pregnancy.a")
 #> 
-#> To cite {pregnancy.a} in publications use:
+#> To cite {rc.pregnancy.a} in publications use:
 #> 
-#>   Sales, A. R. V., Vartanian, D., Rodrigues, I., Pedrazzoli, M. (2021).
-#>   {pregnancy.a}: an R package with the research compendium of the
-#>   GIPSO's sleep and pregnancy systematic quantitative literature
-#>   review. https://gipso.github.io/pregnancy.a/.
+#>   Sales, A. R. V., Vartanian, D., Rodrigues, I., & Pedrazzoli, M.
+#>   (2022). {rc.pregnancy.a}: an R package with the research compendium
+#>   of the GIPSO sleep and pregnancy systematic quantitative literature
+#>   review. https://gipso.github.io/rc.pregnancy.a/
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
 #>   @Unpublished{,
-#>     title = {{pregnancy.a}: an R package with the research compendium of the GIPSO's sleep and pregnancy systematic quantitative literature review},
+#>     title = {{rc.pregnancy.a}: an R package with the research compendium of the GIPSO sleep and pregnancy systematic quantitative literature review},
 #>     author = {Alicia Rafaelly Vilefort Sales and Daniel Vartanian and Isadora Rodrigues and Mario Pedrazzoli},
-#>     year = {2021},
-#>     url = {https://gipso.github.io/pregnancy.a/},
+#>     year = {2022},
+#>     url = {https://gipso.github.io/rc.pregnancy.a/},
 #>     note = {Lifecycle: experimental},
 #>   }
 ```

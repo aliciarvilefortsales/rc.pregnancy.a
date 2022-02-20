@@ -1,10 +1,10 @@
-#' Get paths to `pregnancy.a` raw data
+#' Get paths to `rc.pregnancy.a` raw data
 #'
 #' @description
 #'
 #' `r lifecycle::badge("experimental")`
 #'
-#' `raw_data()` returns the raw data paths of the `pregnancy.a` package.
+#' `raw_data()` returns the raw data paths of the `rc.pregnancy.a` package.
 #'
 #' @param type (optional) a string indicating the file type of the raw data
 #'   (default: `NULL`).
@@ -27,5 +27,5 @@
 #' raw_data()
 #' }
 raw_data <- function(type = NULL, file = NULL) {
-    gutils::raw_data_2(type, file, package = "pregnancy.a")
+    gutils::raw_data_2(type, file, package = "rc.pregnancy.a")
 }

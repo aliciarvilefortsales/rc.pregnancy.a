@@ -1,8 +1,8 @@
 library(checkmate)
 library(testthat)
-library(pregnancy.a)
+library(rc.pregnancy.a)
 
-test_check("pregnancy.a")
+test_check("rc.pregnancy.a")
 
 # # For development use only (comment the code after use (Ctrl + Shift + C)).
 #
@@ -31,7 +31,7 @@ test_check("pregnancy.a")
 # usethis::use_coverage()
 # usethis::use_github_action("check-pak")
 # usethis::use_github_action("test-coverage-pak")
-# usethis::use_logo("./.archive/ai/hex-logo.png")
+# usethis::use_logo(file.choose())
 # usethis::use_tidy_description()
 
 # # SQLR System

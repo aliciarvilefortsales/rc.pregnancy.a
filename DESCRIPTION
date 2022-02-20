@@ -1,4 +1,4 @@
-Package: pregnancy.a
+Package: rc.pregnancy.a
 Title: Research Compendium of the GIPSO Sleep and Pregnancy SQLR
 Version: 0.0.0.9000
 Authors@R: 
@@ -26,12 +26,12 @@ Authors@R:
              role = "fnd"),
       person(given = "University of Sao Paulo (USP)",
              role = "fnd"))
-Description: An R package with the research compendium of the GIPSO's sleep 
-      and pregnancy project: a systematic quantitative literature review.
+Description: Research compendium of the Interdisciplinary Sleep Research Group 
+    (GIPSO) sleep and pregnancy systematic quantitative literature review.
 License: MIT + file LICENSE
-URL: https://gipso.github.io/pregnancy.a/, 
-      https://github.com/gipso/pregnancy.a/
-BugReports: https://github.com/gipso/pregnancy.a/issues/
+URL: https://gipso.github.io/rc.pregnancy.a/, 
+      https://github.com/gipso/rc.pregnancy.a/
+BugReports: https://github.com/gipso/rc.pregnancy.a/issues/
 Depends:
     R (>= 4.1)
 Imports: 
