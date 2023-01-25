@@ -1,9 +1,8 @@
-url: https://gipso.github.io/rc.pregnancy.a/
+url: https://giperbio.github.io/rc.pregnancy.a/
 
 template:
   params:
     bootswatch: cosmo
-    ganalytics: G-S3ZVYXQ6N9
     mathjax: true
     noindex: false
 
@@ -40,10 +39,6 @@ authors:
     href: https://github.com/aliciasales
   Daniel Vartanian:
     href: https://github.com/danielvartan
-  Mario Pedrazzoli:
-    href: https://github.com/pedrazzo
-  Interdisciplinary Sleep Research Group (GIPSO):
-    href: http://each.usp.br/gipso
   University of Sao Paulo (USP):
     href: http://usp.br
 

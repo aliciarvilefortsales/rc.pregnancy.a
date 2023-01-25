@@ -1,5 +1,5 @@
 Package: rc.pregnancy.a
-Title: Research Compendium of the GIPSO Sleep and Pregnancy SQLR
+Title: Research Compendium of the Sleep and Pregnancy SQLR
 Version: 0.0.0.9000
 Authors@R: 
     c(person(given = "Alicia",
@@ -9,7 +9,7 @@ Authors@R:
              comment = c(ORCID = "0000-0003-0004-4487")),
       person(given = "Daniel",
              family = "Vartanian",
-             role = c("aut", "cph", "cre"),
+             role = c("aut", "cre", "ccp", "cph"),
              email = "danvartan@gmail.com",
              comment = c(ORCID = "0000-0001-7782-759X")),
       person(given = "Isadora",
@@ -17,21 +17,14 @@ Authors@R:
              role = c("aut"),
              email = "isadorard@usp.br",
              comment = c(ORCID = "0000-0002-3629-6208")),
-      person(given = "Mario",
-             family = "Pedrazzoli",
-             email = "pedrazzo@usp.br",
-             role = c("aut", "sad"),
-             comment = c(ORCID = "0000-0002-5257-591X")),
-      person(given = "Interdisciplinary Sleep Research Group (GIPSO)",
-             role = "fnd"),
       person(given = "University of Sao Paulo (USP)",
              role = "fnd"))
-Description: Research compendium of the Interdisciplinary Sleep Research Group 
-    (GIPSO) sleep and pregnancy systematic quantitative literature review.
+Description: Research compendium of the sleep and pregnancy systematic 
+    quantitative literature review.
 License: MIT + file LICENSE
-URL: https://gipso.github.io/rc.pregnancy.a/, 
-      https://github.com/gipso/rc.pregnancy.a/
-BugReports: https://github.com/gipso/rc.pregnancy.a/issues/
+URL: https://giperbio.github.io/rc.pregnancy.a/, 
+      https://github.com/giperbio/rc.pregnancy.a/
+BugReports: https://github.com/giperbio/rc.pregnancy.a/issues/
 Depends:
     R (>= 4.1)
 Imports: 
@@ -49,8 +42,8 @@ Suggests:
     spelling (>= 2.2),
     testthat (>= 3.0.0)
 Remotes: 
-    github::gipso/gutils,
-    github::gipso/sqlr
+    github::giperbio/gutils,
+    github::giperbio/sqlr
 VignetteBuilder: 
     knitr
 Config/testthat/edition: 3
