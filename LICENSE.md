@@ -1,6 +1,6 @@
 # MIT License
 
-Copyright (c) 2021 Alicia Rafaelly Vilefort Sales and Daniel Vartanian
+Copyright (c) 2023 Alicia Rafaelly Vilefort Sales and Daniel Vartanian
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

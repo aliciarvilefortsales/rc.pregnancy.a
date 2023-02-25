@@ -4,21 +4,20 @@
 \name{rc.pregnancy.a-package}
 \alias{rc.pregnancy.a}
 \alias{rc.pregnancy.a-package}
-\title{rc.pregnancy.a: Research Compendium of the GIPSO Sleep and Pregnancy SQLR}
+\title{rc.pregnancy.a: Research Compendium of the Sleep and Pregnancy SQLR}
 \description{
-Research compendium of the Interdisciplinary Sleep Research Group (GIPSO) sleep and pregnancy systematic quantitative literature review.
+Research compendium of the sleep and pregnancy systematic quantitative literature review project.
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://gipso.github.io/rc.pregnancy.a/}
-  \item \url{https://github.com/gipso/rc.pregnancy.a/}
-  \item Report bugs at \url{https://github.com/gipso/rc.pregnancy.a/issues/}
+  \item \url{https://github.com/aliciasales/rc.pregnancy.a/}
+  \item Report bugs at \url{https://github.com/aliciasales/rc.pregnancy.a/issues/}
 }
 
 }
 \author{
-\strong{Maintainer}: Daniel Vartanian \email{danvartan@gmail.com} (\href{https://orcid.org/0000-0001-7782-759X}{ORCID}) [copyright holder]
+\strong{Maintainer}: Daniel Vartanian \email{danvartan@gmail.com} (\href{https://orcid.org/0000-0001-7782-759X}{ORCID}) [conceptor, copyright holder]
 
 Authors:
 \itemize{
@@ -29,7 +28,6 @@ Authors:
 
 Other contributors:
 \itemize{
-  \item Interdisciplinary Sleep Research Group (GIPSO) [funder]
   \item University of Sao Paulo (USP) [funder]
 }
 

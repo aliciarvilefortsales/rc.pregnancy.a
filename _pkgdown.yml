@@ -1,18 +1,23 @@
-url: https://giperbio.github.io/rc.pregnancy.a/
+url: https://aliciasales.github.io/rc.pregnancy.a/
 
 template:
   params:
     bootswatch: cosmo
     mathjax: true
-    noindex: false
+    noindex: true
 
 navbar:
   structure:
-    left:  [intro, reference, articles, news]
-    right: [github]
+    left:
+    - home
+    - intro
+    - reference
+    - articles
+    - news
+    right: github
   components:
     home: ~
-    news: ~
+    intro: ~
     articles: ~
 
 reference:
@@ -44,5 +49,4 @@ authors:
 
 development:
   mode: auto
-  destination: doc
   version_label: warning
