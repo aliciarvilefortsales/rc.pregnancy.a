@@ -50,7 +50,7 @@ preferred-citation:
     email: pedrazzo@usp.br
     orcid: https://orcid.org/0000-0002-5257-591X
   year: '2023'
-  url: https://giperbio.github.io/rc.pregnancy.a/
+  url: https://aliciasales.github.io/rc.pregnancy.a/
   notes: R package version 0.0.0.9000
 repository-code: https://github.com/aliciasales/rc.pregnancy.a/issues/
 url: https://github.com/aliciasales/rc.pregnancy.a/
@@ -92,8 +92,8 @@ references:
   url: https://cli.r-lib.org
   repository: https://CRAN.R-project.org/package=cli
   authors:
-  - family-names: Csardi
-    given-names: Gabor
+  - family-names: Csárdi
+    given-names: Gábor
     email: csardi.gabor@gmail.com
   year: '2023'
   version: '>= 3.6.0'
@@ -108,12 +108,12 @@ references:
     given-names: Hadley
     email: hadley@posit.co
     orcid: https://orcid.org/0000-0003-4757-117X
-  - family-names: Francois
+  - family-names: François
     given-names: Romain
     orcid: https://orcid.org/0000-0002-2444-4226
   - family-names: Henry
     given-names: Lionel
-  - family-names: Muller
+  - family-names: Müller
     given-names: Kirill
     orcid: https://orcid.org/0000-0002-1416-3412
   - family-names: Vaughan
@@ -192,7 +192,7 @@ references:
   url: https://krlmlr.github.io/mockr/
   repository: https://CRAN.R-project.org/package=mockr
   authors:
-  - family-names: M<U+00FC>ller
+  - family-names: Müller
     given-names: Kirill
     email: kirill@cynkra.com
   year: '2023'

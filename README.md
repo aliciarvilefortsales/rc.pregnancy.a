@@ -70,7 +70,7 @@ citation("rc.pregnancy.a")
 #>   (2023). {rc.pregnancy.a}: research compendium of the sleep and
 #>   pregnancy systematic quantitative literature review project. R
 #>   package version 0.0.0.9000.
-#>   https://giperbio.github.io/rc.pregnancy.a/
+#>   https://aliciasales.github.io/rc.pregnancy.a/
 #> 
 #> A BibTeX entry for LaTeX users is
 #> 
@@ -78,7 +78,7 @@ citation("rc.pregnancy.a")
 #>     title = {{rc.pregnancy.a}: research compendium of the sleep and pregnancy systematic quantitative literature review project},
 #>     author = {Alicia {Rafaelly Vilefort Sales} and Daniel Vartanian and Isadora Rodrigues and Mario Pedrazzoli},
 #>     year = {2023},
-#>     url = {https://giperbio.github.io/rc.pregnancy.a/},
+#>     url = {https://aliciasales.github.io/rc.pregnancy.a/},
 #>     note = {R package version 0.0.0.9000},
 #>   }
 ```

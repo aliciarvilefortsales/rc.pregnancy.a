@@ -228,7 +228,7 @@
     },
     "SystemRequirements": null
   },
-  "fileSize": "19161.146KB",
+  "fileSize": "19161.158KB",
   "citation": [
     {
       "@type": "CreativeWork",
@@ -264,7 +264,7 @@
         }
       ],
       "name": "{rc.pregnancy.a}: research compendium of the sleep and pregnancy systematic quantitative literature review project",
-      "url": "https://giperbio.github.io/rc.pregnancy.a/",
+      "url": "https://aliciasales.github.io/rc.pregnancy.a/",
       "description": "R package version 0.0.0.9000"
     }
   ],

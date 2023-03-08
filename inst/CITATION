@@ -39,7 +39,7 @@ utils::bibentry(
         ),
     year = "2023",
     url = paste0(
-        "https://giperbio.github.io/",
+        "https://aliciasales.github.io/",
         "rc.pregnancy.a/"
         ),
     note = "R package version 0.0.0.9000",
@@ -54,7 +54,7 @@ utils::bibentry(
         "sleep and pregnancy", " ",
         "systematic quantitative literature review project", ". ",
         "R package version 0.0.0.9000", ". ",
-        "https://giperbio.github.io/",
+        "https://aliciasales.github.io/",
         "rc.pregnancy.a/"
         )
     )
