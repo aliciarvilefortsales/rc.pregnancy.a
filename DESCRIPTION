@@ -32,7 +32,7 @@ Authors@R: c(
             ),
         person(
             given = "University of Sao Paulo (USP)",
-            role = "fnd"
+            role = c("fnd")
             )
         )
 Description: Research compendium of the sleep and pregnancy systematic 

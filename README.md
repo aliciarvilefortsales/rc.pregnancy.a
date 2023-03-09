@@ -82,3 +82,8 @@ citation("rc.pregnancy.a")
 #>     note = {R package version 0.0.0.9000},
 #>   }
 ```
+
+## Acknowledgments
+
+This project was supported with scholarships provided by the [University
+of Sao Paulo (USP)](http://usp.br/) (❤️).

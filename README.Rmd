@@ -60,3 +60,7 @@ If you use `rc.pregnancy.a` in your research, please consider citing it. We put 
 ```{r}
 citation("rc.pregnancy.a")
 ```
+
+## Acknowledgments
+
+This project was supported with scholarships provided by the [University of Sao Paulo (USP)](http://usp.br/) (❤️).
